@@ -6,11 +6,7 @@ body {
 }
 article, aside, header, nav, section {
     display: block;
-}
-h1 {
-	font-size: 2rem;
-	margin: 0.25rem 0px;	
-}
+}	
 h4 {
 	font-size: 1rem;
 }
@@ -27,13 +23,15 @@ h1 h4 {
 }
 .company .container {
 	display: flex;
-	align-items: center;	
+	align-items: center;
+	padding: 12px 0 12px 0.5em;	
 }
-.company .container img {
+.company img {
 	height: 1.5rem;
-	padding-left: 0.5rem;
 	padding-right: 1rem;
-	vertical-align: center;
+}
+img {
+	border-style: none;
 }
 .company .container span {
 	font-size: 1rem;
@@ -52,6 +50,11 @@ h1 h4 {
     position: relative;
     top: 9rem;
     padding: 2rem 3rem;
+}
+.headline h1 {
+	font-size: 2em;
+    line-height: 1.2em;
+    margin: 0.25em 0;
 }
 nav {
 	background-color: firebrick;
@@ -119,9 +122,8 @@ footer{
 		display: none;
 	}
 	.mobile-nav {
-	display: flex;
-    justify-content: center;
-    padding: 0.75em 0;
+		display: block;
+    	text-align: center;
 	}
 	.product {
 		width: 47%;
@@ -132,9 +134,12 @@ footer{
 }
 @media only screen and (max-width: 470px) {
 	.headline {
-		width: 100%;
+    	width: 100%;
     	top: 10em;
     	padding: 1em 2em;
+	}
+	.main-banner {
+		height: 15rem;
 	}
 	h1 {
 		font-size: 1rem;
@@ -142,4 +147,5 @@ footer{
 	h4 {
 		font-size: 0.77rem;
 	}
+	
 }
