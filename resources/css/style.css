@@ -133,19 +133,49 @@ footer{
 	}
 }
 @media only screen and (max-width: 470px) {
+	body {
+		font-size: 12px;
+	}
 	.headline {
     	width: 100%;
     	top: 10em;
+    	height: 6rem;
+    	margin-bottom: 1em;
     	padding: 1em 2em;
 	}
 	.main-banner {
 		height: 15rem;
 	}
 	h1 {
-		font-size: 1rem;
+		font-size: 0.45em;
 	}
 	h4 {
-		font-size: 0.77rem;
+		font-size: 0.65em;
 	}
-	
+	.products {
+		justify-content: center;
+	}
+	.product {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	.product.glasses {
+		display: none;
+	}
+	.product.watch {
+		display: none;
+	}
+	.location-hours {
+		flex-wrap: wrap;
+	}
+	.info {
+		margin-top: 0.5em;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	footer {
+		text-align: center;
+	}
 }
