@@ -41,7 +41,11 @@ img {
 .main-banner {
 	height: 25rem;
     background: url("../images/moto.jpeg")center center / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 
 .headline {
 	background-color: black;
